@@ -10,7 +10,7 @@ def user_logic(n, s):
     pass
 
 
- def main():
+def main():
     import sys
     input = sys.stdin.read
     data = input().strip().split()
@@ -23,5 +23,5 @@ def user_logic(n, s):
     print(result)
 
 
- if __name__ == "__main__":
+if __name__ == "__main__":
     main()
